@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Learning Streak on Blinkist Continues!</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+        table {
+            border-spacing: 0;
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+        td {
+            padding: 0;
+        }
+        img {
+            border: 0;
+            -ms-interpolation-mode: bicubic;
+        }
+        a {
+            text-decoration: none;
+        }
+        @media screen and (max-width: 600px) {
+            .full-width-image img {
+                width: 100% !important;
+                height: auto !important;
+            }
+            .block-wrapper {
+                display: block !important;
+                width: 100% !important;
+            }
+            .mobile-padding {
+                padding: 20px !important;
+            }
+            .stats-column {
+                display: block !important;
+                width: 100% !important;
+                padding-bottom: 20px !important;
+            }
+            .stats-column:last-child {
+                padding-bottom: 0 !important;
+            }
+        }
+    </style>
+</head>
+<body style="margin: 0; padding: 0; background-color: #f4f4f4; font-family: Arial, sans-serif;">
+    <center style="width: 100%; background-color: #f4f4f4;">
+        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #f4f4f4;">
+            <tr>
+                <td align="center" style="padding: 20px 0;">
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="600" style="max-width: 600px; background-color: #ffffff; border-radius: 8px; overflow: hidden;">
+                        <tr>
+                            <td style="background: linear-gradient(135deg, #00D46A 0%, #00A050 100%); padding: 40px 30px; text-align: center;">
+                                <img src="assets/logo2-blinkist.png" alt="Blinkist" width="150" style="display: block; margin: 0 auto 20px;">
+                                <h1 style="margin: 0; color: #ffffff; font-size: 28px; font-weight: 700; line-height: 36px;">
+                                    Great Job, {{firstName}}! <br>Keep Your Streak Alive! 🎉
+                                </h1>
+                                <p style="margin: 10px 0 0; color: #ffffff; font-size: 16px; opacity: 0.9;">
+                                    Consistency is key to building your knowledge habit.
+                                </p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="mobile-padding animate-in" style="padding: 40px 30px 20px; text-align: center;">
+                                <img src="assets/ai-gif-email.gif" alt="Daily Learning Streak" style="max-width: 150px; margin-bottom: 20px;">
+                                <p style="font-size: 18px; color: #007540; font-weight: 600; margin-bottom: 10px;">
+                                    You've maintained your learning streak for {{currentStreak}} days!
+                                </p>
+                                <p style="font-size: 16px; color: #666666; margin-top: 5px;">
+                                    Every Blink brings you closer to your goals.
+                                </p>
+                                <a href="{{deepLinkToApp}}" style="display: inline-block; padding: 16px 40px; background: #00D46A; color: #ffffff; text-decoration: none; border-radius: 30px; font-weight: 600; font-size: 16px; box-shadow: 0 4px 12px rgba(0, 212, 106, 0.3); margin-top: 30px;">
+                                    Start Your Next Blink →
+                                </a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td style="padding: 20px 30px;">
+                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                    <tr>
+                                        <td class="stats-column" width="33%" align="center" style="padding: 0 10px;">
+                                            <div style="font-size: 32px; font-weight: 700; color: #00D46A; margin-bottom: 5px;">{{booksReadThisWeek}}</div>
+                                            <div style="font-size: 14px; color: #666666;">Blings read this week</div>
+                                        </td>
+                                        <td class="stats-column" width="33%" align="center" style="padding: 0 10px;">
+                                            <div style="font-size: 32px; font-weight: 700; color: #00D46A; margin-bottom: 5px;">{{totalMinutesRead}}</div>
+                                            <div style="font-size: 14px; color: #666666;">Minutes learned</div>
+                                        </td>
+                                        <td class="stats-column" width="33%" align="center" style="padding: 0 10px;">
+                                            <div style="font-size: 32px; font-weight: 700; color: #00D46A; margin-bottom: 5px;">{{newTopicsExplored}}</div>
+                                            <div style="font-size: 14px; color: #666666;">New topics explored</div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td style="padding: 20px 30px;">
+                                <div style="background-color: #f8f9fa; border-radius: 12px; padding: 25px;">
+                                    <h3 style="margin: 0 0 20px; font-size: 18px; font-weight: 600; color: #1a1a1a;">
+                                        Recommended next for you:
+                                    </h3>
+                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                        <tr>
+                                            <td style="padding-bottom: 15px;">
+                                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                                    <tr>
+                                                        <td width="60" style="padding-right: 15px;">
+                                                            <div style="width: 60px; height: 80px; background: linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 100%); border-radius: 4px;"></div>
+                                                        </td>
+                                                        <td>
+                                                            <h4 style="margin: 0 0 5px; font-size: 16px; color: #1a1a1a;">{{suggestion1Title}}</h4>
+                                                            <p style="margin: 0; font-size: 14px; color: #666666;">{{suggestion1Author}}</p>
+                                                            <p style="margin: 5px 0 0; font-size: 12px; color: #00D46A; font-weight: 600;">{{userInterest1}}</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                                    <tr>
+                                                        <td width="60" style="padding-right: 15px;">
+                                                            <div style="width: 60px; height: 80px; background: linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%); border-radius: 4px;"></div>
+                                                        </td>
+                                                        <td>
+                                                            <h4 style="margin: 0 0 5px; font-size: 16px; color: #1a1a1a;">{{suggestion2Title}}</h4>
+                                                            <p style="margin: 0; font-size: 14px; color: #666666;">{{suggestion2Author}}</p>
+                                                            <p style="margin: 5px 0 0; font-size: 12px; color: #00D46A; font-weight: 600;">{{userInterest2}}</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td style="background-color: #f8f9fa; padding: 30px;">
+                                <p style="margin: 0 0 20px; font-size: 14px; color: #666666; text-align: center; font-style: italic;">
+                                    "Blinkist turned my commute into the most productive part of my day. I've 'read' 50+ books this year!"
+                                </p>
+                                <p style="margin: 0; font-size: 12px; color: #999999; text-align: center;">
+                                    — Sarah K., Premium member since 2022
+                                </p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td style="padding: 30px; text-align: center; border-top: 1px solid #eeeeee;">
+                                <p style="margin: 0 0 15px; font-size: 14px; color: #666666;">
+                                    Questions? We're here at <a href="mailto:support@blinkist.com" style="color: #00D46A; text-decoration: none;">support@blinkist.com</a>
+                                </p>
+                                <p style="margin: 0 0 15px; font-size: 12px; color: #999999;">
+                                    <a href="#" style="color: #999999; text-decoration: none;">Unsubscribe</a> •
+                                    <a href="#" style="color: #999999; text-decoration: none;">Privacy Policy</a> •
+                                    <a href="#" style="color: #999999; text-decoration: none;">Terms</a>
+                                </p>
+                                <p style="margin: 0; font-size: 11px; color: #cccccc;">
+                                    © 2025 Blinkist. Sonnenallee 223, 12059 Berlin, Germany
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
